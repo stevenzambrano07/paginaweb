@@ -1,0 +1,259 @@
+header{
+  background:#16db65;
+  color: #f5f3f5;
+  padding: 20px ;
+  text-align: center;
+  
+}
+
+
+.icon-cart{
+  width: 40px;
+  height: 40px;
+
+}
+
+.icon-cart:hover{
+  cursor: pointer;
+}
+.x-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.x-icon:hover{
+  stroke: red;
+}
+.container-icon{
+  position: relative;
+
+}
+.count-products{
+  position: absolute;
+  top: 55%;
+  right: 0;
+
+  background-color: #000;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#contador-productos{
+  font-size: 12px;
+}
+
+.container-cart-products{
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  background-color: #fff;
+  width: 400px;
+  z-index: 1;
+}
+
+
+.cart-product{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+  display: flex;
+  justify-content: space-between;
+flex: 0.8;
+}
+
+.titulo-producto-carrito{
+  font-size: 20px;
+}
+
+.precio-producto-carrito{
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cart-total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.cart-total:h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.total-pagar{
+  font-size:  20px;
+  font-weight: 900;
+}
+
+.hidden-cart{
+  display: none;
+}
+
+.container-cart-products{
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  background-color: #16db65;
+  width: 400px;
+  z-index: 1;
+}
+
+nav ul{
+ background-color: #1be7ff;
+list-style-type: none;
+width: 95%;
+text-align: center;
+}
+nav li{
+  display: inline-flex;
+}
+nav a{
+  color: #f5f3f5;
+  text-decoration: none;
+  padding: 10px;
+  width: 170px;
+}
+
+ nav a:hover{
+  color: #040f0f;
+ }
+
+header h1{
+  font-family: Shadows Into Light;
+}
+
+main{
+   font-family: Shadows Into Light;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.lista-productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productos{
+  width: 30%;
+  background-color: #fff;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.productos:hover{
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+}
+
+.productos img{
+width: 220px;
+height: 220px;
+display: block ;
+transition: tranform 0.6 ease-in-out;
+margin: 0 auto 10px;
+}
+
+.productos:hover img {
+  transform: scale(1.1);
+
+}
+
+.productos button{
+  display: block;
+  margin: 0 auto;
+  background-color: #040f0f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background color 0.3s ease-in-out;
+}
+
+.productos button:hover{
+  background-color: #1be7ff;
+}
+
+footer{
+  background-color:#16db65;
+  color:#f5f3f5;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap:  wrap;
+
+}
+
+.links-informativos{
+  width: 400px;
+   font-family: "Caveat", cursive;
+font-size: 24px;
+}
+.links-informativos ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-informativos li a {
+text-decoration: none;
+color: #f5f3f5;
+}
+ 
+.redes-sociales{
+  width: 400px;
+}
+
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.1);
+}
+
+.info-contacto{
+  width: 200px;
+   font-family: "Caveat", cursive;
+font-size: 16px;
+}
+#Polar{
+  color: #040f0f;
+}
+
+#Polar:hover{
+  color: #040f0f;
+ }
